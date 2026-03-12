@@ -1,4 +1,4 @@
-export class Conta {
+export abstract class Conta {
 
     private _numero: number;
     private _agencia: number;
@@ -82,7 +82,7 @@ export class Conta {
                 break;
         }
 
-        console.log("*****************************************************");
+        console.log("\n\n*****************************************************");
         console.log("Dados da Conta:");
         console.log("*****************************************************");
         console.log("Numero da Conta: " + this._numero);
